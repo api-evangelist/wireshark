@@ -1,0 +1,13 @@
+name: Wireshark
+description: A free and open-source packet analyzer used for network troubleshooting,
+  analysis, software and communications protocol development, and education.
+url: https://www.wireshark.org/
+tags:
+- Network Analysis
+- Packet Capture
+- Security
+- Monitoring
+created: '2025'
+modified: '2025'
+apis: []
+common: []
