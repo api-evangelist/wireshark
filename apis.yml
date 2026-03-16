@@ -1,13 +1,19 @@
+aid: wireshark
 name: Wireshark
 description: A free and open-source packet analyzer used for network troubleshooting,
   analysis, software and communications protocol development, and education.
+type: Index
 url: https://www.wireshark.org/
 tags:
-- Network Analysis
-- Packet Capture
-- Security
-- Monitoring
+  - Network Analysis
+  - Packet Capture
+  - Security
+  - Monitoring
 created: '2025'
-modified: '2025'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
 common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
