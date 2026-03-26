@@ -1,19 +1,77 @@
 aid: wireshark
 name: Wireshark
-description: A free and open-source packet analyzer used for network troubleshooting,
-  analysis, software and communications protocol development, and education.
+description: >-
+  Wireshark is the world's foremost and widely-used free and open-source network
+  protocol analyzer. It is used for network troubleshooting, analysis, software
+  and communications protocol development, and education. It lets you capture
+  and interactively browse the traffic running on a computer network.
 type: Index
-url: https://www.wireshark.org/
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/wireshark/refs/heads/main/apis.yml
 tags:
   - Network Analysis
   - Packet Capture
+  - Protocol Analysis
   - Security
+  - Open Source
   - Monitoring
-created: '2025'
-modified: '2026-03-16'
+created: '2025-01-08'
+modified: '2026-03-26'
 specificationVersion: '0.19'
-apis: []
-common: []
+access: 3rd-Party
+position: Consumer
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+apis:
+  - aid: wireshark:wireshark
+    name: Wireshark
+    description: >-
+      Wireshark is a free and open-source network protocol analyzer that
+      captures and interactively browses network traffic. It supports hundreds
+      of protocols, runs on multiple platforms, and provides deep inspection of
+      packets. While not an API provider itself, Wireshark is a critical tool
+      for debugging and analyzing API traffic at the network level.
+    humanURL: https://www.wireshark.org
+    tags:
+      - Network Analysis
+      - Packet Capture
+      - Protocol Analysis
+      - Debugging
+    properties:
+      - type: Documentation
+        url: https://www.wireshark.org/docs/
+      - type: User Guide
+        url: https://www.wireshark.org/docs/wsug_html_chunked/
+      - type: Developer Guide
+        url: https://www.wireshark.org/docs/wsdg_html_chunked/
+      - type: Wiki
+        url: https://wiki.wireshark.org
+      - type: Downloads
+        url: https://www.wireshark.org/download.html
+common:
+  - type: Website
+    url: https://www.wireshark.org
+  - type: Documentation
+    url: https://www.wireshark.org/docs/
+  - type: Blog
+    url: https://blog.wireshark.org
+  - type: FAQ
+    url: https://www.wireshark.org/faq.html
+  - type: GitHub
+    url: https://github.com/wireshark/wireshark
+  - type: GitLab
+    url: https://gitlab.com/wireshark/wireshark
+  - type: Bug Tracker
+    url: https://gitlab.com/wireshark/wireshark/-/issues
+  - type: Downloads
+    url: https://www.wireshark.org/download.html
+  - type: Release Notes
+    url: https://www.wireshark.org/docs/relnotes/
+  - type: Mailing Lists
+    url: https://www.wireshark.org/lists/
+  - type: Support
+    url: https://ask.wireshark.org
+  - type: License
+    url: https://www.wireshark.org/about.html#legal
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
