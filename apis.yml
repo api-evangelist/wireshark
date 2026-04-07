@@ -9,12 +9,12 @@ type: Index
 url: >-
   https://raw.githubusercontent.com/api-evangelist/wireshark/refs/heads/main/apis.yml
 tags:
+  - Monitoring
   - Network Analysis
+  - Open Source
   - Packet Capture
   - Protocol Analysis
   - Security
-  - Open Source
-  - Monitoring
 created: '2025-01-08'
 modified: '2026-03-26'
 specificationVersion: '0.19'
@@ -32,10 +32,10 @@ apis:
       for debugging and analyzing API traffic at the network level.
     humanURL: https://www.wireshark.org
     tags:
+      - Debugging
       - Network Analysis
       - Packet Capture
       - Protocol Analysis
-      - Debugging
     properties:
       - type: Documentation
         url: https://www.wireshark.org/docs/
