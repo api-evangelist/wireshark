@@ -1,0 +1,17 @@
+---
+title: "From Network Packets to Log Data: How Logray built upon Falco’s foundation"
+url: "https://blog.wireshark.org/2024/01/from-network-packets-to-log-data-how-logray-built-upon-falcos-foundation/"
+date: "Mon, 29 Jan 2024 17:13:42 +0000"
+author: ""
+feed_url: "https://blog.wireshark.org/index.xml"
+---
+<p>In the ever-evolving landscape of network security, a new star has emerged – Logray. The name comes from “log” (as in event logs) and “ray” (the closest zoological cousin to sharks, similar to “wire” and “shark” for network packets. Logray represents a significant leap in network security tools. Premiering at <a href="https://www.youtube.com/watch?v=7bfUSXJPHPs">SharkFest ’22</a>, it takes the best of Wireshark and innovates further by focusing on log data analysis. While Wireshark focuses on scrutinizing network traffic, Logray delves into system calls, Amazon Cloudtrail logs, and other log data, offering new vistas for network security professionals.</p>
+<p>At its core, Logray retains the user-friendly aspects of Wireshark, including the familiar filter engine, intuitive colouring, and context menus. Yet, it goes beyond by accommodating the reading of <a href="https://wiki.wireshark.org/Development/PcapNg">PcapNG</a> files embedded with log data and facilitating the integration of third-party plugins using Falco’s powerful plugin API. System call and log data is saved using the PCAP Next Generation Dump File Format (pcapng), which provides a powerful and versatile shared foundation which broadens the scope of data capture and analysis.</p>
+<p>A notable innovation within Logray is ‘<a href="https://www.wireshark.org/docs/man-pages/falcodump.html">falcodump</a>‘, a component enabling the dumping of log data via a Falco source plugin. As an external capture (<a href="https://www.wireshark.org/docs/man-pages/extcap.html">extcap</a>) tool, falcodump captures log messages from cloud providers, presenting each plugin as a distinct interface.</p>
+<p>For instance, the below command is run under the hood to capture AWS CloudTrail events from an S3 bucket. The end user does not have to type it themselves.</p>
+<p class="has-background" style="background-color: #ffffff;">
+  <code>falcodump --extcap-interface=cloudtrail --fifo=/tmp/cloudtrail.pcap --plugin-source=s3://aws-cloudtrail-logs…/CloudTrail/us-east-2/… --capture</code>
+</p>
+<p>Logray’s choice to support Falco plugins allows security practitioners to harness the falcodump capabilities to potentially bridge the gap between sporadic data sources such as cloud services and identity providers.</p>
+<p>The true value of Logray lies in its ability to synthesise information from system calls and log data into a unified recording format. This cohesive approach offers analysts a panoramic view of relevant events, transcending the limitations of examining network, system, and log contexts in isolation or through disjointed SIEM tooling. Logray embodies a holistic solution, using the power of Falco to enrich data from otherwise disjointed event sources, providing profound contextual analysis for system introspection.</p>
+<p>In conclusion, Logray isn’t just another tool; it’s a paradigm shift in network security, enabling professionals to connect the dots across multiple data sources seamlessly. This unified vision provides a clearer, more comprehensive understanding of security events, marking a significant advancement in the field of network security analysis.</p>
