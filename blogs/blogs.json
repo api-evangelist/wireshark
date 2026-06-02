@@ -2,12 +2,20 @@
   "repo": "wireshark",
   "feeds": [
     {
-      "source": "https://blog.wireshark.org",
+      "source": "https://blog.wireshark.org/index.xml",
       "feed_url": "https://blog.wireshark.org/index.xml",
-      "title": "The Official Wireshark Blog",
-      "saved": 45
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.wireshark.org/docs/",
+      "feed_url": "https://www.wireshark.org/docs/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 55,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
