@@ -50,10 +50,10 @@ apis:
         url: https://www.wireshark.org/docs/wsdg_html_chunked/
       - type: GettingStarted
         url: https://www.wireshark.org/docs/wsug_html_chunked/
-      - type: SDK
+      - type: SDKs
         url: https://www.wireshark.org/docs/wsdg_html_chunked/ChapterDissection.html
         title: Dissector Plugin API (C/C++)
-      - type: SDK
+      - type: SDKs
         url: https://www.wireshark.org/docs/wsdg_html_chunked/wsluarm.html
         title: Lua API Reference
       - type: Downloads
@@ -77,7 +77,7 @@ common:
     url: https://www.wireshark.org/download.html
   - type: ReleaseNotes
     url: https://www.wireshark.org/docs/relnotes/
-  - type: Forum
+  - type: Forums
     url: https://www.wireshark.org/lists/
   - type: Features
     data:
