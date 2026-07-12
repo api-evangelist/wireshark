@@ -59,6 +59,10 @@ apis:
       - type: Downloads
         url: https://www.wireshark.org/download.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/wireshark-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/wireshark-domain-security.yml
   - type: Website
     url: https://www.wireshark.org
   - type: Documentation
