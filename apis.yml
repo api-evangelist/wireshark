@@ -13,6 +13,13 @@ url: >-
 tags:
   - Debugging
   - Network Analysis
+  - Open-Source
+  - Packet Capture
+  - Protocol Analysis
+  - Security
+tags_raw:
+  - Debugging
+  - Network Analysis
   - Open Source
   - Packet Capture
   - Protocol Analysis
@@ -47,6 +54,15 @@ apis:
       for custom capture file formats.
     humanURL: https://www.wireshark.org
     tags:
+      - Debugging
+      - Extcap
+      - Lua Scripting
+      - Network Analysis
+      - Open-Source
+      - Packet Capture
+      - Protocol Analysis
+      - Plugins
+    tags_raw:
       - Debugging
       - Extcap
       - Lua Scripting
