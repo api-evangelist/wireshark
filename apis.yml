@@ -12,6 +12,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/wireshark/refs/heads/main/apis.yml
 tags:
   - Debugging
+  - Developer Tools
   - Network Analysis
   - Open-Source
   - Packet Capture
