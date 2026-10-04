@@ -13,7 +13,7 @@ url: >-
 tags:
   - Debugging
   - Network Analysis
-  - Open-Source
+  - Open Source
   - Packet Capture
   - Protocol Analysis
   - Security
@@ -24,16 +24,22 @@ tags_raw:
   - Packet Capture
   - Protocol Analysis
   - Security
+  - Open-Source
 deliveryModel:
-  model: library
-  open_source: false
+  model: self-hosted
+  license: GPL-2.0
+  license_evidence:
+    repo: wireshark/wireshark
+    spdx: GPL-2.0
+    stars: 9927
+  open_source: true
   commercial: false
   callable_host: false
-  label: Library · distributed through package registries, no callable service
-  confidence: low
+  label: Self-hosted open source · you run it yourself
+  confidence: medium
   source:
-  - none
-  generated: '2026-08-28'
+  - repository-license
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -69,7 +75,7 @@ apis:
       - Extcap
       - Lua Scripting
       - Network Analysis
-      - Open-Source
+      - Open Source
       - Packet Capture
       - Protocol Analysis
       - Plugins
@@ -82,6 +88,7 @@ apis:
       - Packet Capture
       - Protocol Analysis
       - Plugins
+      - Open-Source
     properties:
       - type: Documentation
         url: https://www.wireshark.org/docs/
