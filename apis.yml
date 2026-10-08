@@ -105,6 +105,12 @@ apis:
       - type: Downloads
         url: https://www.wireshark.org/download.html
 common:
+  - type: Plans
+    url: plans/wireshark-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/wireshark-rate-limits.yml
+  - type: FinOps
+    url: finops/wireshark-finops.yml
   - type: VulnerabilityDisclosure
     url: security/wireshark-vulnerability-disclosure.yml
   - type: DomainSecurity
